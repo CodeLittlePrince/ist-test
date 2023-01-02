@@ -16,7 +16,11 @@ import HelloWorld from './components/HelloWorld.vue' // @ is an alias to /src
 
   methods: {
     foo(name: string):void {
-      console.log(name)
+      if (name === 'kitty') {
+        console.log(name)
+      } else {
+        console.log('hello')
+      }
     }
   }
 })

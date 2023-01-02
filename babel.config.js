@@ -15,9 +15,16 @@ module.exports = {
   ],
   'plugins': [
     'transform-vue-jsx',
-    ['@babel/plugin-proposal-decorators', { 'legacy': true}],
+    ['@babel/plugin-proposal-decorators', { 'legacy': true }],
     '@babel/proposal-class-properties',
     '@babel/proposal-object-rest-spread',
     '@babel/plugin-transform-typescript',
-  ]
+  ],
+  'env': {
+    'test': {
+      'plugins': [
+        ['babel-plugin-istanbul']
+      ]
+    }
+  }
 }
