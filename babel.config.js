@@ -11,13 +11,11 @@ module.exports = {
         }
       }
     ],
-    '@babel/preset-typescript'
   ],
   'plugins': [
     'transform-vue-jsx',
     ['@babel/plugin-proposal-decorators', { 'legacy': true }],
     '@babel/proposal-class-properties',
-    '@babel/proposal-object-rest-spread',
     '@babel/plugin-transform-typescript',
   ],
   'env': {
