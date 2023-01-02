@@ -1,0 +1,45 @@
+{
+  "name": "my-vue-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc",
+    "mock": "nodemon --watch ./mockServer -q ./mockServer/index.js",
+    "watch": "epay-sparta-service development",
+    "prod": "epay-sparta-service production",
+    "analyze": "epay-sparta-service production --analyze",
+    "online": "epay-sparta-service production --online",
+    "dev": "concurrently \"npm run mock\" \"npm run watch\" --kill-others"
+  },
+  "author": "codelittleprince",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-syntax-decorators": "^7.19.0",
+    "@babel/plugin-transform-typescript": "^7.20.7",
+    "@babel/preset-typescript": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "concurrently": "^3.6.1",
+    "eslint": "^8.31.0",
+    "husky": "^3.1.0",
+    "koa-mock-switch": "^2.1.1",
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^2.0.1",
+    "typescript": "^4.9.4",
+    "vue-class-component": "^7.2.6"
+  },
+  "dependencies": {
+    "@epay-sparta/cli-service": "^2.3.0",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "axios": "^0.21.1",
+    "cross-env": "^5.2.0",
+    "vue": "^2.6.10",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.1.3"
+  }
+}
