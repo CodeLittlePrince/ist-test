@@ -1,0 +1,445 @@
+{
+  "/Users/nijunjie/Downloads/test/ist-test/src/app.vue": {
+      "path": "/Users/nijunjie/Downloads/test/ist-test/src/app.vue",
+      "statementMap": {
+          "0": {
+              "start": {
+                  "line": 12,
+                  "column": 6
+              },
+              "end": {
+                  "line": 16,
+                  "column": 7
+              }
+          },
+          "1": {
+              "start": {
+                  "line": 13,
+                  "column": 8
+              },
+              "end": {
+                  "line": 13,
+                  "column": 25
+              }
+          },
+          "2": {
+              "start": {
+                  "line": 15,
+                  "column": 8
+              },
+              "end": {
+                  "line": 15,
+                  "column": 28
+              }
+          }
+      },
+      "fnMap": {
+          "0": {
+              "name": "(anonymous_0)",
+              "decl": {
+                  "start": {
+                      "line": 11,
+                      "column": 4
+                  },
+                  "end": {
+                      "line": 11,
+                      "column": 5
+                  }
+              },
+              "loc": {
+                  "start": {
+                      "line": 11,
+                      "column": 27
+                  },
+                  "end": {
+                      "line": 17,
+                      "column": 5
+                  }
+              },
+              "line": 11
+          }
+      },
+      "branchMap": {
+          "0": {
+              "loc": {
+                  "start": {
+                      "line": 12,
+                      "column": 6
+                  },
+                  "end": {
+                      "line": 16,
+                      "column": 7
+                  }
+              },
+              "type": "if",
+              "locations": [
+                  {
+                      "start": {
+                          "line": 12,
+                          "column": 6
+                      },
+                      "end": {
+                          "line": 16,
+                          "column": 7
+                      }
+                  },
+                  {
+                      "start": {
+                          "line": 14,
+                          "column": 13
+                      },
+                      "end": {
+                          "line": 16,
+                          "column": 7
+                      }
+                  }
+              ],
+              "line": 12
+          }
+      },
+      "s": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+      },
+      "f": {
+          "0": 0
+      },
+      "b": {
+          "0": [
+              0,
+              0
+          ]
+      },
+      "inputSourceMap": {
+          "version": 3,
+          "sources": [
+              "app.vue"
+          ],
+          "names": [],
+          "mappings": ";AAQA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+          "file": "app.vue",
+          "sourcesContent": [
+              "<template>\n  <div class=\"home\">\n    <img alt=\"Vue logo\" src=\"./img/logo.png\">\n    <HelloWorld msg=\"Welcome to Your Vue.js + TypeScript App\" />\n  </div>\n</template>\n\n<script lang=\"ts\">\nimport { Component, Vue } from 'vue-property-decorator'\nimport HelloWorld from './components/HelloWorld.vue' // @ is an alias to /src\n\n@Component({\n  components: {\n    HelloWorld,\n  },\n\n  methods: {\n    foo(name: string):void {\n      if (name === 'kitty') {\n        console.log(name)\n      } else {\n        console.log('hello')\n      }\n    }\n  }\n})\nexport default class HomeView extends Vue {}\n</script>\n"
+          ]
+      },
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "c151b99ef02f0951256a1c6f6956942af8878ef9"
+  },
+  "/Users/nijunjie/Downloads/test/ist-test/src/components/HelloWorld.vue": {
+      "path": "/Users/nijunjie/Downloads/test/ist-test/src/components/HelloWorld.vue",
+      "statementMap": {
+          "0": {
+              "start": {
+                  "line": 12,
+                  "column": 20
+              },
+              "end": {
+                  "line": 12,
+                  "column": 22
+              }
+          },
+          "1": {
+              "start": {
+                  "line": 15,
+                  "column": 20
+              },
+              "end": {
+                  "line": 15,
+                  "column": 39
+              }
+          },
+          "2": {
+              "start": {
+                  "line": 16,
+                  "column": 4
+              },
+              "end": {
+                  "line": 21,
+                  "column": 5
+              }
+          },
+          "3": {
+              "start": {
+                  "line": 17,
+                  "column": 6
+              },
+              "end": {
+                  "line": 17,
+                  "column": 15
+              }
+          },
+          "4": {
+              "start": {
+                  "line": 20,
+                  "column": 6
+              },
+              "end": {
+                  "line": 20,
+                  "column": 15
+              }
+          }
+      },
+      "fnMap": {
+          "0": {
+              "name": "(anonymous_0)",
+              "decl": {
+                  "start": {
+                      "line": 14,
+                      "column": 2
+                  },
+                  "end": {
+                      "line": 14,
+                      "column": 3
+                  }
+              },
+              "loc": {
+                  "start": {
+                      "line": 14,
+                      "column": 26
+                  },
+                  "end": {
+                      "line": 22,
+                      "column": 3
+                  }
+              },
+              "line": 14
+          }
+      },
+      "branchMap": {
+          "0": {
+              "loc": {
+                  "start": {
+                      "line": 16,
+                      "column": 4
+                  },
+                  "end": {
+                      "line": 21,
+                      "column": 5
+                  }
+              },
+              "type": "if",
+              "locations": [
+                  {
+                      "start": {
+                          "line": 16,
+                          "column": 4
+                      },
+                      "end": {
+                          "line": 21,
+                          "column": 5
+                      }
+                  },
+                  {
+                      "start": {
+                          "line": 18,
+                          "column": 11
+                      },
+                      "end": {
+                          "line": 21,
+                          "column": 5
+                      }
+                  }
+              ],
+              "line": 16
+          }
+      },
+      "s": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+      },
+      "f": {
+          "0": 0
+      },
+      "b": {
+          "0": [
+              0,
+              0
+          ]
+      },
+      "inputSourceMap": {
+          "version": 3,
+          "sources": [
+              "HelloWorld.vue"
+          ],
+          "names": [],
+          "mappings": ";AAOA;;AAEA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+          "file": "HelloWorld.vue",
+          "sourcesContent": [
+              "<template>\n  <div class=\"hello\">\n    <h1>{{ msg }}</h1>\n  </div>\n</template>\n\n<script lang=\"ts\">\nimport { Component, Prop, Vue } from 'vue-property-decorator'\n\n@Component\nexport default class HelloWorld extends Vue {\n  @Prop() private msg!: string\n\n  @Prop()\n  private loading!: boolean\n\n  // 搜索关键字\n  private keyword = ''\n\n  private search():number {\n    const keyword = this.keyword.trim() // 关键字\n    if (keyword) {\n      return 20\n    } else {\n      // 无关键词显示全部\n      return 30\n    }\n  }\n}\n</script>\n\n<!-- Add \"scoped\" attribute to limit CSS to this component only -->\n<style scoped lang=\"scss\">\nh3 {\n  margin: 40px 0 0;\n}\nul {\n  list-style-type: none;\n  padding: 0;\n}\nli {\n  display: inline-block;\n  margin: 0 10px;\n}\na {\n  color: #42b983;\n}\n</style>\n"
+          ]
+      },
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "6938e6b18dad4bb4227895992ef3b15471b963d2"
+  },
+  "/Users/nijunjie/Downloads/test/ist-test/src/index.ts": {
+      "path": "/Users/nijunjie/Downloads/test/ist-test/src/index.ts",
+      "statementMap": {
+          "0": {
+              "start": {
+                  "line": 6,
+                  "column": 4
+              },
+              "end": {
+                  "line": 6,
+                  "column": 23
+              }
+          },
+          "1": {
+              "start": {
+                  "line": 10,
+                  "column": 4
+              },
+              "end": {
+                  "line": 10,
+                  "column": 21
+              }
+          },
+          "2": {
+              "start": {
+                  "line": 14,
+                  "column": 14
+              },
+              "end": {
+                  "line": 14,
+                  "column": 33
+              }
+          },
+          "3": {
+              "start": {
+                  "line": 15,
+                  "column": 0
+              },
+              "end": {
+                  "line": 15,
+                  "column": 34
+              }
+          },
+          "4": {
+              "start": {
+                  "line": 21,
+                  "column": 0
+              },
+              "end": {
+                  "line": 21,
+                  "column": 32
+              }
+          },
+          "5": {
+              "start": {
+                  "line": 23,
+                  "column": 0
+              },
+              "end": {
+                  "line": 25,
+                  "column": 17
+              }
+          },
+          "6": {
+              "start": {
+                  "line": 24,
+                  "column": 15
+              },
+              "end": {
+                  "line": 24,
+                  "column": 21
+              }
+          }
+      },
+      "fnMap": {
+          "0": {
+              "name": "(anonymous_0)",
+              "decl": {
+                  "start": {
+                      "line": 5,
+                      "column": 2
+                  },
+                  "end": {
+                      "line": 5,
+                      "column": 3
+                  }
+              },
+              "loc": {
+                  "start": {
+                      "line": 5,
+                      "column": 41
+                  },
+                  "end": {
+                      "line": 7,
+                      "column": 3
+                  }
+              },
+              "line": 5
+          },
+          "1": {
+              "name": "(anonymous_1)",
+              "decl": {
+                  "start": {
+                      "line": 9,
+                      "column": 2
+                  },
+                  "end": {
+                      "line": 9,
+                      "column": 3
+                  }
+              },
+              "loc": {
+                  "start": {
+                      "line": 9,
+                      "column": 40
+                  },
+                  "end": {
+                      "line": 11,
+                      "column": 3
+                  }
+              },
+              "line": 9
+          },
+          "2": {
+              "name": "(anonymous_2)",
+              "decl": {
+                  "start": {
+                      "line": 24,
+                      "column": 10
+                  },
+                  "end": {
+                      "line": 24,
+                      "column": 11
+                  }
+              },
+              "loc": {
+                  "start": {
+                      "line": 24,
+                      "column": 15
+                  },
+                  "end": {
+                      "line": 24,
+                      "column": 21
+                  }
+              },
+              "line": 24
+          }
+      },
+      "branchMap": {},
+      "s": {
+          "0": 1,
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+      },
+      "f": {
+          "0": 1,
+          "1": 2,
+          "2": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "fbd2ca96827569a27d581794d50cb6fa938f1ae1"
+  }
+}

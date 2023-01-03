@@ -6,7 +6,7 @@
   "scripts": {
     "ts": "tsc",
     "mock": "nodemon --watch ./mockServer -q ./mockServer/index.js",
-    "watch": "epay-sparta-service development",
+    "watch": "BABEL_ENV=test epay-sparta-service development",
     "istanbul": "BABEL_ENV=test epay-sparta-service development",
     "prod": "epay-sparta-service production",
     "analyze": "epay-sparta-service production --analyze",

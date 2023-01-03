@@ -10,6 +10,22 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string
+
+  @Prop()
+  private loading!: boolean
+
+  // 搜索关键字
+  private keyword = ''
+
+  private search():number {
+    const keyword = this.keyword.trim() // 关键字
+    if (keyword) {
+      return 20
+    } else {
+      // 无关键词显示全部
+      return 30
+    }
+  }
 }
 </script>
 
